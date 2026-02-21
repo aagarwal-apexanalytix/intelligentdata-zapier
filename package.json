@@ -1,0 +1,21 @@
+{
+  "name": "zapier-intelligentdata",
+  "version": "0.1.0",
+  "description": "Zapier integration for the apexanalytix Intelligent Data API — validate addresses, tax IDs, bank accounts, and screen against global sanctions lists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "zapier test",
+    "validate": "zapier validate"
+  },
+  "dependencies": {
+    "zapier-platform-core": "15.x"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=6.14.0"
+  },
+  "zapier": {
+    "id": 0,
+    "key": "intelligentdata"
+  }
+}
